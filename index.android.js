@@ -3,15 +3,8 @@
  * https://github.com/facebook/react-native
  */
 'use strict';
-import React, {
-  AppRegistry,
-  Component,
-  StyleSheet,
-  Text,
-  View,
-  TouchableNativeFeedback,
-  DeviceEventEmitter
-} from 'react-native';
+import React, {Component} from 'react';
+import {AppRegistry, StyleSheet, Text, View, TouchableNativeFeedback, DeviceEventEmitter} from 'react-native';
 import Subscribable from 'Subscribable';
 
 class HeartbeatMonitor extends Component {
